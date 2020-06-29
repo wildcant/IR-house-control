@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Control</h1>
+  <button onclick="toggleTv()">Toggle TV status</button>
+  <script>
+    const toggleTv = () => fetch("http://192.168.1.8:3000/toggle");
+  </script>
+</body>
+</html>

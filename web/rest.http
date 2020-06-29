@@ -1,0 +1,13 @@
+GET http://localhost:3000/toggle
+
+###
+
+POST http://localhost:3000/device/create
+Content-Type: application/json
+
+{
+  name: "sample",
+  state: {
+    status: true
+  }
+}

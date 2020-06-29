@@ -1,0 +1,10 @@
+{
+  "id": 1,
+  "name": "TV",
+  "codes": {
+    "ON/OFF": 551489775
+  },
+  "state": {
+    "status": true
+  }
+}
